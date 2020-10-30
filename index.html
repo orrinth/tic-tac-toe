@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Orrin">
+        <meta name="description" content="Get ready for a fun game of tic tac toe against the computer.">
+        <meta name="keywords" content="Tic, tac, toe">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/tictactoe.css">
+        <script src="scripts/tictactoe.js" defer></script>
+    </head>
+    <body>
+        <div class="intro">
+            <h1>Tic</h1>
+            <h1>Tac</h1>
+            <h1>Toe</h1>
+            <button type="button" id="play-game">Play Game</button>
+        </div>
+
+        <div class="whole">
+            <div class="first-half">
+                <h2>Player One</h2>
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="second-half">
+                <h2>Player Two</h2>
+                <i class="far fa-circle"></i>
+            </div>
+        </div>
+
+        <h1 id="turn">Player One's Turn</h1>
+        <table>
+            <tr>
+                <td><button type="button" id="tr1td1"></button></td>
+                <td><button type="button" id="tr1td2"></button></td>
+                <td><button type="button" id="tr1td3"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="tr2td1"></button></td>
+                <td><button type="button" id="tr2td2"></button></td>
+                <td><button type="button" id="tr2td3"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="tr3td1"></button></td>
+                <td><button type="button" id="tr3td2"></button></td>
+                <td><button type="button" id="tr3td3"></button></td>
+            </tr>
+        </table>
+        
+        <div class="overlay">
+            <h1></h1>
+            <button type="button" id="play-again">Play Again</button>
+            <button type="button" id="main-menu">Main Menu</button>
+        </div>
+    </body>
+</html>
